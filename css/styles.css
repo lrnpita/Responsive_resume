@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i,300,400');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+* {
+	border: 0;
+	margin: 0;
+}
+p {
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #485465;
+}
+section {
+	width: 100%;
+}
+.banner {
+	height: 20px;
+	background: #485465;
+}
+.menu {
+	display: none;
+	padding: 20px;
+	text-align: center;
+}
+.menu ul li {
+		list-style: none;
+		display: inline;
+		padding: 10px 20px;
+		border-radius: 2px; 
+		margin: 0px 20px;
+	}
+.menu ul li a {	
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.menu ul li:hover {
+background: #B2B1B6;
+}
+
+.presentation {
+	background: #F0E2E2;
+	height: 340px;
+}
+.presentation .full-name {
+	text-align: center;
+	padding: 30px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #485465;
+}
+.presentation .full-name h3 {
+	font-weight: 300;
+	font-size: 15px;
+}
+.video-curriculum {
+	text-align: center;
+}
+video {
+	width: 300px;
+}
+.experience {
+	box-sizing: border-box;
+	padding: 20px;
+	background: #fff;
+}
+.experience-tittle {
+	text-align: center;
+	padding: 10px;
+	color: #485465;
+}
+.experience-tittle h3, .skills-tittle h3, .extra-information-block h3 {
+	text-transform: uppercase;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	letter-spacing: 5px;
+}
+.experience-block {
+	box-sizing: border-box;
+	text-align: center;
+	background: #F0E2E2;
+	margin: 20px;
+	padding: 20px;
+	border:1px solid #485465;
+}
+.experience-block h4, .experience-block h3 {
+	font-family: 'Robot', sans-serif;
+    font-weight: 300;
+	color: #485465;
+}
+.experience-block h4 {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+.experience-block h3{
+	font-size: 16px;
+	letter-spacing: 3px;
+	
+}
+.skills {
+	box-sizing: border-box;
+	padding: 20px;
+	/*background-color:rgba(178, 177, 182,0.4);*/
+}
+.skills-tittle {
+	/*width: 60px;*/
+	text-align: center;
+	padding-bottom: 20px;
+}
+.skills-tittle h3 {
+	color: #485465;
+}
+.skills-block {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px;
+}
+.skills-block h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	background: #F0E2E2;
+	padding: 10px;
+	text-transform: uppercase;
+	color: #485465;
+}
+.skills-list, .skills-list ul li {
+	padding: 10px;
+	color: #485465;
+}
+.read-more {
+	text-align: center;
+	padding: 10px;
+}
+.read-more a {
+	padding: 5px;
+	text-decoration: none;
+	color: #485465;
+}
+.extra-information {
+	/*Efecto parallax*/
+	background: url("fondo.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+}
+.extra-information-block {
+	width: 100%;
+	padding: 10px;
+}
+.extra-information-block h3 {
+	padding: 20px;
+	color: #fff;
+}
+.extra-information-block p {
+	color: #fff;
+}
+.contact-me {
+	box-sizing: border-box;
+	/*width: 100%;*/
+	height: 450px;
+	background: #B2B1B6; 
+	/*padding: 20px 200px;*/
+}
+.contact-form {
+	padding: 40px 40px;
+	text-align: center;
+}
+.contact-form form {
+	/*box-sizing: border-box;
+	text-align: center;
+	width: 33%;
+	display: block;
+	margin: 0% 33%;*/
+	display: inline-table;
+}
+input, textarea, select, button {
+  margin: 5px 20px;
+	border-radius: 3px;
+  -webkit-box-sizing: border-box; 
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box;
+          opacity: .8;
+}
+form #subject, form #email{
+	width: 200px;
+	height: 30px;
+}
+form #message {
+	width: 200px;
+	height: 200px;
+}
+form #send {
+	width: 200px;
+	height: 30px;
+	font-family:'Roboto', sans-serif;
+	text-transform: uppercase;
+	color: #485465;
+}
+form #send:hover {
+	
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	background: #485465;
+	box-sizing: border-box;
+	padding: 0px 10px;
+}
+footer .downloadCV {
+	text-align: center;
+	padding: 10px;
+}
+footer .downloadCV a {
+		color: #fff;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 24px;
+		letter-spacing: 5px;
+}
+footer .downloadCV span {
+	text-decoration: none; 
+}
+footer .social-network {
+	text-align: center;
+	padding-top: 20px;
+}
+footer .social-network ul{
+	padding: 0px;
+}
+footer .social-network ul li{
+	display: inline;
+	list-style: none;
+	padding: 10px;
+}
+footer .social-network ul li a {
+	text-decoration: none;	
+	padding: 5px 8px;
+	border-radius: 15px;
+	background: #B2B1B6;
+	color: #485465;
+}
+footer .social-network a:hover {
+	color: #F0E2E2;	
+}
+.copy_right {
+	padding-top: 10px;
+	width: 100%;
+}
+p.creditos {
+	color: #fff;
+	text-align: center;
+	opacity: .7;
+}
+.up {
+	bottom: 50px;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.up a {
+	float: right;
+    padding: 10px;
+    text-decoration: none;
+    background: #F0E2E2;
+    opacity: .7;
+    border-radius: 5px;
+}
+.up a span {
+	color: #485465;
+	font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.menu {
+		display: block;
+	}
+	.banner {
+	height: 60px;
+	}
+	.presentation{
+		height: 480px;
+	}
+	video {
+	width: 580px;
+	}
+	.skills-block {
+	width: 50%;
+	float: left;
+	}
+	.contact-form form {
+	width: 600px;
+	}
+	form #subject, form #message, form #email{
+	width: 600px;
+	}
+	footer .downloadCV{
+		float: left;
+	}
+	footer .social-network {
+		float: right;
+	}
+	.copy_right {
+	padding-top: 150px;
+	}
+	.skills-block {
+	height: 130px;
+	}
+	.extra-information {
+		height: 600px;
+	}
+	p {
+		line-height: 2;
+	}
+}
+
